@@ -15,6 +15,7 @@
     }
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "vue": "^2.7.10",
     "vue-router": "3.6.5"
@@ -33,9 +34,10 @@
     "eslint-plugin-vue": "^8.0.3",
     "husky": "^8.0.1",
     "inquirer": "^9.1.2",
-    "standard-version": "^9.5.0",
+    "msw": "^0.47.3",
     "sass": "^1.54.9",
-    "sass-loader": "^13.0.2"
+    "sass-loader": "^13.0.2",
+    "standard-version": "^9.5.0"
   },
   "eslintConfig": {
     "root": true,
@@ -55,5 +57,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
