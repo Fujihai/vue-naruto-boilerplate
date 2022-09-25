@@ -10,6 +10,12 @@ const routes = [
     component: () => import("../pages/HomePage.vue"),
     meta: { view: "homepage" },
   },
+  {
+    path: "/pinia",
+    name: "pinia-usage",
+    component: () => import("../pages/PiniaUsage.vue"),
+    meta: { view: "pinia" },
+  },
 ];
 
 const router = new VueRouter({
