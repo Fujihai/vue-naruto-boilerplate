@@ -1,3 +1,4 @@
+import Vue from "vue";
 import axios from "axios";
 
 const BASE_URL_MAP = {
@@ -56,4 +57,4 @@ service.interceptors.response.use(
   }
 );
 
-export default service;
+Vue.prototype.$http = service;
