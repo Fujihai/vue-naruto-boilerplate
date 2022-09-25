@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "@/router";
 import service from "@/request/http";
 import { createPinia, PiniaVuePlugin } from "pinia";
+import "normalize.css";
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = service;

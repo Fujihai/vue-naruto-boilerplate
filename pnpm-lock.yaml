@@ -17,6 +17,7 @@ specifiers:
   husky: ^8.0.1
   inquirer: ^9.1.2
   msw: ^0.47.3
+  normalize.css: ^8.0.1
   pinia: ^2.0.22
   sass: ^1.54.9
   sass-loader: ^13.0.2
@@ -27,6 +28,7 @@ specifiers:
 dependencies:
   axios: registry.npmmirror.com/axios/0.27.2
   core-js: 3.25.2
+  normalize.css: registry.npmmirror.com/normalize.css/8.0.1
   pinia: registry.npmmirror.com/pinia/2.0.22_vue@2.7.10
   vue: registry.npmmirror.com/vue/2.7.10
   vue-router: registry.npmmirror.com/vue-router/3.6.5_vue@2.7.10
@@ -9012,6 +9014,12 @@ packages:
     version: 3.0.0
     engines: {node: '>=0.10.0'}
     dev: true
+
+  registry.npmmirror.com/normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/normalize.css/-/normalize.css-8.0.1.tgz}
+    name: normalize.css
+    version: 8.0.1
+    dev: false
 
   registry.npmmirror.com/object-inspect/1.12.2:
     resolution: {integrity: sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/object-inspect/-/object-inspect-1.12.2.tgz}
