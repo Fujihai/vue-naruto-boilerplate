@@ -1,4 +1,4 @@
-# cool-cli
+# vue-naruto-boilerplate
 
 ## Project setup
 ```

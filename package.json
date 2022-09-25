@@ -1,6 +1,8 @@
 {
-  "name": "cool-cli",
+  "name": "vue-naruto-boilerplate",
   "version": "0.1.0",
+  "description": "A vue naruto project boilerplate.",
+  "author": "Fujihai",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
