@@ -1,6 +1,21 @@
+<script setup>
+import useCounter from "@/stores/counter";
+import { computed } from "vue";
+
+const counter = useCounter();
+
+const value = computed(() => counter.value);
+const span = computed(() => counter.span);
+
+const add = counter.add;
+const reduce = counter.reduce;
+const updateSpan = counter.updateSpan;
+</script>
+
 <template>
   <div class="pinia-usage">
-    <h1>{{ value }}</h1>
+    <h1>Pinia Usage</h1>
+    <h2>value: {{ value }}</h2>
     <div class="btn-groups">
       <button @click="add">+ {{ span }}</button>
       <button @click="reduce">- {{ span }}</button>
@@ -8,20 +23,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import { mapState, mapActions } from "pinia";
-import useCounter from "@/stores/counter";
-
-export default {
-  computed: {
-    ...mapState(useCounter, ["value", "span"]),
-  },
-  methods: {
-    ...mapActions(useCounter, ["add", "reduce", "updateSpan"]),
-  },
-};
-</script>
 
 <style lang="scss" scoped>
 .pinia-usage {

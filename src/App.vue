@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <router-view />
+    <component :is="layout">
+      <router-view />
+    </component>
   </div>
 </template>
 
 <script>
 export default {
   name: "App",
+  computed: {
+    layout() {
+      return (this.$route.meta.layout || "default") + "-layout";
+    },
+  },
 };
 </script>
 
-<style>
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-}
+<style lang="scss" scoped>
 </style>
