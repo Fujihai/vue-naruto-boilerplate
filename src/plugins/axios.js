@@ -1,13 +1,8 @@
 import Vue from "vue";
 import axios from "axios";
 
-const BASE_URL_MAP = {
-  development: "",
-  production: "",
-};
-
 const service = axios.create({
-  baseURL: `${BASE_URL_MAP[process.env.NODE_ENV]}`,
+  baseURL: `${process.env.VUE_APP_BASE_SERVER_URL}`,
   timeout: 1500,
 });
 

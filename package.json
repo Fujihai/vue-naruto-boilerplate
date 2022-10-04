@@ -5,8 +5,9 @@
   "author": "Fujihai",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode development",
+    "serve-mock": "vue-cli-service serve --mode mock",
+    "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
     "commit": "git-cz",
     "release": "standard-version --no-verify"

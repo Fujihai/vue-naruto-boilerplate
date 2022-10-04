@@ -34,4 +34,21 @@ export const handlers = [
       })
     );
   }),
+
+  rest.get("/mock/list", (req, res, ctx) => {
+    return res(
+      ctx.status(200),
+      ctx.json({
+        data: Array(10)
+          .fill({})
+          .map((item, idx) => {
+            item = {
+              name: `list_${idx + 1}`,
+              id: idx + 1,
+            };
+            return item;
+          }),
+      })
+    );
+  }),
 ];

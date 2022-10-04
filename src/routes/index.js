@@ -17,6 +17,12 @@ const routes = [
     component: () => import("@/views/AxiosUsage.vue"),
     meta: { view: "axios", layout: "default" },
   },
+  {
+    path: "/mock",
+    name: "msw-usage",
+    component: () => import("@/views/MswUsage.vue"),
+    meta: { view: "msw", layout: "default" },
+  },
 ];
 
 export default routes;
