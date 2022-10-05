@@ -3,7 +3,7 @@
 
 <template>
   <div class="homepage">
-    <h1>Welcome to use vue-naruto-boilerplate.</h1>
+    <h1>Welcome to use vue naruto boilerplate.</h1>
     <ul>
       <li><a href="/pinia">pinia usage</a></li>
       <li><a href="/axios">axios usage</a></li>

@@ -3,8 +3,6 @@ import { createPinia, PiniaVuePlugin } from "pinia";
 
 Vue.use(PiniaVuePlugin);
 
-// export const pinia = createPinia();
-
 const pinia = createPinia();
 
 export default pinia;
