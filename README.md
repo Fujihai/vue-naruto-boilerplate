@@ -20,4 +20,4 @@ pnpm serve
 
 ## Documentations
 
-* (architecture)[docs/architecture.md]
+* [architecture](docs/architecture.md)
