@@ -18,6 +18,20 @@ pnpm i
 pnpm serve
 ```
 
+## Features
+
+### Standard git workflow
+
+Use `pnpm commit`.
+
+![pnpm commit](docs/imgs/commit.png)
+
+### Change log
+
+Use `pnpm release`.
+
+![pnpm release](docs/imgs/release.png)
+
 ## Documentations
 
 * [architecture](docs/architecture.md)
