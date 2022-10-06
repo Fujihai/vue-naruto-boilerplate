@@ -9,7 +9,7 @@
     "serve-mock": "vue-cli-service serve --mode mock",
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
-    "commit": "git-cz",
+    "commit": "git add . && git-cz",
     "release": "standard-version --no-verify"
   },
   "config": {
