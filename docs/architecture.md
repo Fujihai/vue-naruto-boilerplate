@@ -53,41 +53,41 @@ Build system will skip processing assets in this folder.
 
 ## src
 
-Source files.
+Source code folders.
 
-* App.vue
+### App.vue
 
 Root vue component.
 
-* app.config.json
+### app.config.json
 
 App specific metadata, such as html title and project description.
 
-* layouts
+### layouts
 
 Views layout.
 
-* main.js
+### main.js
 
 The entry point to our application, where we create global Vue instance and mount it to the DOM.
 
-* mocks
+### mocks
 
 Mocks api handlers lives, see [msw basis](https://mswjs.io/docs/basics) for more.
 
-* plugins
+### plugins
 
 Global plugins lives.
 
-* routes
+### routes
 
 Vue router routes config lives, see [Vue-Router doc](https://router.vuejs.org/guide/essentials/named-routes.html) for more.
 
-* stores
+### stores
 
 Global state management lives. See the [pinia doc](https://pinia.vuejs.org/introduction.html) for more.
 
-* views
+### views
 
 Global page container views lives.
 
