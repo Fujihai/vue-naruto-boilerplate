@@ -20,7 +20,7 @@ pnpm serve
 
 ## Features
 
-### Standard git workflow
+### Standard commit message
 
 Use `pnpm commit`.
 
