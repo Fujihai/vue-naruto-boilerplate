@@ -1,5 +1,5 @@
 
-# Architecture
+# File structure
 
 ```
 vue-naruto-boilerplate
