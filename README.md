@@ -34,4 +34,4 @@ Use `pnpm release`.
 
 ## Documentations
 
-* [architecture](docs/architecture.md)
+* [file structure](docs/file-structure.md)
